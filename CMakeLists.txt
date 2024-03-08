@@ -37,7 +37,7 @@ else()
     else()
         add_executable(ozzylogik_test_task
             ${PROJECT_SOURCES}
-            widget.ui
+
 
             delegates/operatordelegate.h delegates/operatordelegate.cpp
             treemodel.h treemodel.cpp
